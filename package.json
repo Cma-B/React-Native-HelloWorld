@@ -17,7 +17,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.8.6",
-    "babel-preset-expo": "~8.1.0"
+    "babel-preset-expo": "~8.1.0",
+    "detox": "^17.4.3",
+    "detox-expo-helpers": "^0.6.0",
+    "expo-detox-hook": "^1.0.10"
   },
-  "private": true
+  "private": true,
+  "jest": {
+    "preset": "jest-expo"
+  }
 }
